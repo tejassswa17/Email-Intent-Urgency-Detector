@@ -2,8 +2,9 @@ from parser import InputFormat
 from prompt import prompt_template
 from model import llm
 from parser import parser
+from model import chain
 
-chain = prompt_template | llm | parser
+#chain = prompt_template | llm | parser
 
 problem = input("Enter Email Text: ")
 
